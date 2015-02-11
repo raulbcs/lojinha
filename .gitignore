@@ -32,39 +32,39 @@ sftp-config.json
 
 ### Symfony ###
 # Cache and logs (Symfony2)
-/app/cache/*
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
+/lojinhaphp/app/cache/*
+/lojinhaphp/app/logs/*
+!lojinhaphpapp/cache/.gitkeep
+!lojinhaphpapp/logs/.gitkeep
 
 # Cache and logs (Symfony3)
-/var/cache/*
-/var/logs/*
-!var/cache/.gitkeep
-!var/logs/.gitkeep
+/lojinhaphp/var/cache/*
+/lojinhaphp/var/logs/*
+!lojinhaphp/var/cache/.gitkeep
+!lojinhaphp/var/logs/.gitkeep
 
 # Parameters
-/app/config/parameters.yml
-/app/config/parameters.ini
+/lojinhaphp/app/config/parameters.yml
+/lojinhaphp/app/config/parameters.ini
 
 # Managed by Composer
-/app/bootstrap.php.cache
-/var/bootstrap.php.cache
-/bin/*
-!bin/console
-!bin/symfony_requirements
-/vendor/
+/lojinhaphp/app/bootstrap.php.cache
+/lojinhaphp/var/bootstrap.php.cache
+/lojinhaphp/bin/*
+!lojinhaphp/bin/console
+!lojinhaphp/bin/symfony_requirements
+/lojinhaphp/vendor/
 
 # Assets and user uploads
-/web/bundles/
-/web/uploads/
+/lojinhaphp/web/bundles/
+/lojinhaphp/web/uploads/
 
 # PHPUnit
-/app/phpunit.xml
-/phpunit.xml
+/lojinhaphp/app/phpunit.xml
+/lojinhaphp/phpunit.xml
 
 # Build data
-/build/
+/lojinhaphp/build/
 
 # Composer PHAR
 /composer.phar
