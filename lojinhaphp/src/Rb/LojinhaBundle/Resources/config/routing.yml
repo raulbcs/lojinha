@@ -1,0 +1,7 @@
+rb_lojinha_index:
+    path:     /
+    defaults: { _controller: RbLojinhaBundle:Catalog:index }
+
+rb_lojinha_catalog:
+    path:     /catalog/
+    defaults: { _controller: RbLojinhaBundle:Catalog:index }

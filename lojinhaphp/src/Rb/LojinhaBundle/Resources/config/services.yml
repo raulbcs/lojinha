@@ -1,0 +1,4 @@
+services:
+#    rb_lojinha.example:
+#        class: Rb\LojinhaBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
